@@ -1,211 +1,183 @@
 {
-  "displayOrder": ["shortBio","projects", "work", "education", "awards", "volunteer", "social"],
+  "displayOrder": [
+    "shortBio",
+    "projects",
+    "work",
+    "education",
+    "social"
+  ],
   "hideDesignedBy": false,
   "personal": {
-    "name": "Navdeep Sekhon",
-    "title": "Software Developer",
-    "email": "sekhon@navdeep.co",
-    "phone": "123-456-7890",
-    "website": "http://www.navdeepsekhon.com",
-    "shortBio": "Hello! I am Navdeep Sekhon. I make stuff. Here's some of it.",
-    "location": "Delaware",
+    "name": "Ryan Gocal",
+    "title": "Freelance Android Developer",
+    "email": "rgocal09@gmail.com",
+    "phone": 8145044403,
+    "website": "https://rgocal.github.io/",
+    "shortBio": "Greetings! I am a tech savy father of 2 boys and gamer! I am a shop manager during the day but at night, I'm a coffee dreaking java code junky. I have a nack for messing around with Launcher environments for Android!",
+    "location": "Pennsylvania",
     "profiles": [
       {
-        "network": "Twitter",
-        "url": "http://twitter.com/navdeepsekhon9"
+        "network": "X \"Twiiter\"",
+        "url": "https://x.com/Rgocal"
       },
       {
         "network": "github",
-        "url": "http://decompile.xyz"
+        "url": "https://github.com/rgocal"
       },
       {
         "network": "linkedin",
-        "url": "https://www.linkedin.com/in/navdeepsekhon"
-      },
-      {
-        "network": "facebook",
-        "url": "facebook.com/navdeepsekhon6"
+        "url": "https://www.linkedin.com/in/ryan-gocal"
       }
     ]
   },
   "work": [
     {
-      "employer": "ABC Company",
-      "location": "Newark, DE",
-      "title": "Job with no highlights",
-      "website": "http://google.com",
-      "dates": "July 2014 - Present",
-      "highlights": []
-    },
-    {
-      "employer": "DEF Company",
-      "location": "Newark, DE",
-      "title": "Job with no link to employer site",
+      "employer": "FCA LLC",
+      "location": "Corry, Pa",
+      "title": "Inventory Manager",
       "website": "",
-      "dates": "1900 - 1901",
+      "dates": "March 2014 - Present",
       "highlights": [
-        "Implemented new APIs",
-        "Integrated and tested existing C++ libraries with the google testing framework",
-        "Implemented and improved functionality in the backend as well as the frontend of the system",
-        "Technology: C++, SQL, PHP, ExtJS, Unix"
+        "Implemented several CI that improved workflow and safety for all employees",
+        "Executed several grade A inventories",
+        "Forklift certified",
+        "Practiced 5s/6s",
+        "Manager of the Month award",
+        "10 years of experience"
       ]
     },
     {
-      "employer": "University Of Delaware",
-      "location": "Newark, DE",
-      "title": "Job with both link to employer site and highlights",
-      "website": "http://google.com",
-      "dates": "1899 – 1900",
+      "employer": "Radio Shack",
+      "location": "Corry, Pa",
+      "title": "Key Holder",
+      "website": "",
+      "dates": "2011 - 2013",
       "highlights": [
-        "Worked on Model and Simulation of DRAM-PCM Dual Architecture with Dr. Chengmo Yang",
-        "Developed simulators for various parts of the architecture",
-        "Integrated different algorithms",
-        "Tested the algorithms and analyzed the results",
-        "Presented research findings at research seminar"
+        "Right hand man",
+        "Most tech savy",
+        "Most Sales"
+      ]
+    },
+    {
+      "employer": "Walmart",
+      "location": "Corry, Pa",
+      "title": "Nightshift Department Restock",
+      "website": "",
+      "dates": "2010 – 2011",
+      "highlights": [
+        "Maintained several departments solo"
       ]
     }
   ],
-  "volunteer":[
-    {
-      "organization": "Volunteer Org #1",
-      "location": "Newark, DE",
-      "title": "Volunteer without link to website",
-      "website": "",
-      "dates": "December 2015",
-      "highlights": [
-        "highlight",
-        "highlight"
-      ]
-    },
-    {
-      "organization": "Volunteer Org #2",
-      "location": "Newark, DE",
-      "title": "Volunteer without highlights",
-      "website": "https://www.udel.edu/",
-      "dates": "November 2015",
-      "highlights": [
-        
-      ]
-    },
-    {
-      "organization": "Volunteer Org #3",
-      "location": "Newark, DE",
-      "title": "Volunteer with website and highlights",
-      "website": "https://www.udel.edu/",
-      "dates": "November 2015",
-      "highlights": [
-            "highlight",
-             "highlight"
-      ]
-    }
-    ],
   "education": [
-      {
-      "institution": "University Of noGPA",
-      "major": "Computer Engineering",
-      "degree": "Masters",
-      "graduationDate": "Fall 2020"
+    {
+      "institution": "Erie Institute of Technology",
+      "major": "Biomedical Engineering",
+      "degree": "",
+      "graduationDate": ""
     },
     {
-      "institution": "University Of Delaware",
-      "major": "Computer Engineering",
-      "degree": "Bachelor",
-      "graduationDate": "Fall 2010",
-      "gpa": "3.7/4.0"
+      "institution": "Union City High School",
+      "major": "",
+      "degree": "High School Degree",
+      "graduationDate": "Summer 2009",
+      "gpa": "4.0+"
     }
   ],
   "projectSections": [
-       {
-      "title": "FrontEnd",
-      "projects" :[{
-        "title": "Project with bulleted description",
-        "link": "https://github.com/navdeepsekhon/AndroidWeatherApp/",
-        "thumbnail": "https://raw.githubusercontent.com/navdeepsekhon/portfolio-generator/master/screenshot.PNG",
-        "description": [
-          "Javascript framework that automatically generates a portfolio website from resume data.",
-          "Ability to create image galleries for projects.",
-          "Ability to choose the order of different sections or skip sections entirely.",
-          "Ability to have custom named sections for projects.",
-          "Supports all major social networks icon. ",
-          "The code for this entire site is generated by the framework. Nothing is hardcoded!"
-          ]
+    {
+      "title": "Android Libraries",
+      "projects": [
+        {
+          "title": "Material Popup Menu",
+          "link": "https://github.com/rgocal/Material_PopUp_Menu",
+          "thumbnail": "",
+          "description": "An attractive context popup menu for android. Customize the colors, arrow position, actions, buttons and text."
         },
         {
-        "title": "Project with no link",
-        "thumbnail": "https://raw.githubusercontent.com/navdeepsekhon/portfolio-generator/master/screenshot.PNG",
-        "description": [
-          "To crete a bulleted list in the pop up",
-          "Put description content within []",
-          "Each bullet item separated by comma"
-          ]
-        },
-        {
-        "title": "Project with long paragraph description",
-        "link": "https://github.com/navdeepsekhon/AndroidWeatherApp/",
-        "thumbnail": "https://raw.githubusercontent.com/navdeepsekhon/portfolio-generator/master/screenshot.PNG",
-        "description": "To create a paragraph description in the pop up, do not put content in [], just put it everything within the double quotes."
-          
-        }]
+          "title": "Switchbar",
+          "link": "https://github.com/rgocal/Switchbar",
+          "thumbnail": "",
+          "description": "A simple toolbar widget for android that behaves like a switch that dynamically behaves to the action of the switch."
+        }
+      ]
     },
     {
       "title": "Android",
       "projects": [
         {
-          "title": "Project with image gallery",
-          "thumbnail": "https://raw.githubusercontent.com/navdeepsekhon/AndroidWeatherApp/master/screenshots/tablet_mainscreen.png",
-          "link": "https://github.com/navdeepsekhon/AndroidWeatherApp/",
-          "description": "To create an image gallery in pop up, put the image URLs comma separated in gallery: []",
+          "title": "Launcher Ops",
+          "thumbnail": "",
+          "link": "",
+          "description": "An Ops like android app that allows users to manage and change their Launcher Apps on their device. Play detective and search installed launcher apps for any protective permissions, class items, services and ads.",
           "gallery": [
-            "https://raw.githubusercontent.com/navdeepsekhon/AndroidWeatherApp/master/screenshots/phone_detailscreen_portrait.png",
-            "https://raw.githubusercontent.com/navdeepsekhon/AndroidWeatherApp/master/screenshots/phone_mainscreen.png",
-            "https://raw.githubusercontent.com/navdeepsekhon/AndroidWeatherApp/master/screenshots/user_settings_screen.png",
-            "https://raw.githubusercontent.com/navdeepsekhon/AndroidWeatherApp/master/screenshots/tablet_mainscreen.png"
+            ""
           ]
         },
         {
-          "title": "No gallery, no description(?!)",
-          "thumbnail": "https://raw.githubusercontent.com/navdeepsekhon/PopMovies/master/screenshots/tablet_movie_details_landscape.PNG",
-          "link": "https://github.com/navdeepsekhon/PopMovies"
-        },
-        {
-          "title": "Top Ten Songs App",
-          "thumbnail": "https://raw.githubusercontent.com/navdeepsekhon/TopTenSongsAndroidApp/master/screenshots/tablet_player.PNG",
-          "link": "https://github.com/navdeepsekhon/TopTenSongsAndroidApp",
-          "description": "Android app to play current top ten songs for an artist. Supports instant search for artists. Uses spotify API. Optimized for phone and tablet.",
+          "title": "Carpenter",
+          "thumbnail": "",
+          "link": "",
+          "description": "Android app to manage installed Icon Packs and browse the contents of the apk. Save, extract and craft with the icons that have been provided to you and create your own resources! Quickly preview and apply icon packs to supported launcher apps.",
           "gallery": [
-            "https://raw.githubusercontent.com/navdeepsekhon/TopTenSongsAndroidApp/master/screenshots/phone_initial_view.png",
-            "https://raw.githubusercontent.com/navdeepsekhon/TopTenSongsAndroidApp/master/screenshots/phone_instant_search.png",
-            "https://raw.githubusercontent.com/navdeepsekhon/TopTenSongsAndroidApp/master/screenshots/phone_artist_top_songs.png",
-            "https://raw.githubusercontent.com/navdeepsekhon/TopTenSongsAndroidApp/master/screenshots/tablet_instant_search.PNG",
-            "https://raw.githubusercontent.com/navdeepsekhon/TopTenSongsAndroidApp/master/screenshots/tablet_artist_top_songs.PNG",
-            "https://raw.githubusercontent.com/navdeepsekhon/TopTenSongsAndroidApp/master/screenshots/tablet_player.PNG"
+            ""
           ]
         },
         {
-          "title": "Court Counter",
-          "thumbnail": "https://raw.githubusercontent.com/navdeepsekhon/CourtCounter/master/screenshots/Screenshot_2015-06-07-14-12-32.png",
-          "link": "https://github.com/navdeepsekhon/CourtCounter",
-          "description": "Android app to keep track of a basketball game score!",
+          "title": "Drosera Launcher",
+          "thumbnail": "",
+          "link": "",
+          "description": "An Android Launcher app designed for gamers and handhelds! Currently in development...",
           "gallery": [
-            "https://raw.githubusercontent.com/navdeepsekhon/CourtCounter/master/screenshots/Screenshot_2015-06-07-14-12-32.png",
-            "https://raw.githubusercontent.com/navdeepsekhon/CourtCounter/master/screenshots/Screenshot_2015-06-07-14-12-43.png"
+            ""
+          ]
+        },
+        {
+          "title": "GCA Launcher",
+          "thumbnail": "",
+          "link": "",
+          "description": "A reboot is coming soon...",
+          "gallery": [
+            ""
+          ]
+        },
+        {
+          "title": "Sapphire Launcher",
+          "thumbnail": "",
+          "link": "",
+          "description": "My first custom android launcher based on Launcher2 code by Slim Roms.",
+          "gallery": [
+            ""
+          ]
+        },
+        {
+          "title": "Sapphyx Launcher",
+          "thumbnail": "",
+          "link": "",
+          "description": "An Android Launcher that was based on Pixel Launcher code. Lawnchair Launcher beat me...RIP",
+          "gallery": [
+            ""
+          ]
+        },
+        {
+          "title": "Drywall",
+          "thumbnail": "",
+          "link": "",
+          "description": "My first Wallpaper app for Android that pulled wallpapers from a json file from my github. RIP",
+          "gallery": [
+            ""
+          ]
+        },
+        {
+          "title": "Launcher Quick Tile",
+          "thumbnail": "",
+          "link": "",
+          "description": "A Quick Tile for Android that allows users to swap launchers faster than the android settings provides by default.",
+          "gallery": [
+            ""
           ]
         }
       ]
-    }
-   
-  ],
-  "awards": [
-    {
-      "title": "Award with description",
-      "date": "March 2014",
-      "awarder": "University of Delaware Electrical and Computer Engineering Department",
-      "description": "Awarded to the team with the best senior design project within the ECE department. Project: INERTIA: Dead reckoning tracking system for application in GPS degraded environments."
-    },
-    {
-      "title": "Award without description",
-      "date": "March 2014",
-      "awarder": "University of Delaware Electrical and Computer Engineering Department"
     }
   ]
 }
