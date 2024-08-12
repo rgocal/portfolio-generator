@@ -1,6 +1,6 @@
 var RESUME_LOCATION="https://raw.githubusercontent.com/" + rgocal +"/portfolio-generator/master/resume.json";
 
-var titleOnBlur = "Miss You :(";
+var titleOnBlur = "GocalSD";
 var titleOnActive = "Portfolio";
 
 var HTMLEmail = '<li><span class="glyphicon glyphicon-envelope contact-icon"></span><span class="contact-text">%data%</span></li>';
